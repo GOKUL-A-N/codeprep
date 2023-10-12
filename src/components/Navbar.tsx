@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar: React.FC = () => {
   return (
-    <div>Navbar</div>
+    <div className='heading1'>Navbar</div>
   )
 }
 
