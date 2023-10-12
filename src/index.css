@@ -1,69 +1,95 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+/* 
+  primary color -> #0f1316
+  text color -> #D1EAFE;
+  important color -> #00CFBA;
+  extra color -> #63727b;
+*/
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+
+*{
+  background-color: #0f1316;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+
+.heading1{
+  color: #D1EAFE;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.heading2{
+  color: #63727b;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 28px; 
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.paragraph{
+  color: #D1EAFE;
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+.important{
+  color: #00CFBA;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 28px; 
+}
+
+
+
+
+.third {
+  border-color: #00cfba;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #00cfba inset, 0 0 0 0 #00cfba;
+  transition: all 150ms ease-in-out;
+  padding: 5px 20px 5px 20px;
+  font-size: 20px;
+  /* border-radius: 10%;   */
+}
+
+.third:hover {
+  box-shadow: 0 0 10px 0 #00cfba inset, 0 0 10px 4px #00cfba;
+}
+
+
+@media only screen and (min-width: 1080px) {
+  .heading1{
+    color: #D1EAFE;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
   }
-  a:hover {
-    color: #747bff;
+  
+  .heading2{
+    color: #63727b;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 35px; 
   }
-  button {
-    background-color: #f9f9f9;
+  
+  .paragraph{
+    color: #D1EAFE;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    
+  }
+  
+  .important{
+    color: #00CFBA;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 35px; 
   }
 }
