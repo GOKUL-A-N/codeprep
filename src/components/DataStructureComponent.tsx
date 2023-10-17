@@ -5,7 +5,7 @@ import React from "react";
 const DataStructureComponent: React.FC<{ name: String }> = ({ name }) => {
   return (
     <div className="comp-bg flex items-center m-10 rounded cursor-pointer">
-      <h1 className="font-bold text-[35px] p-4 text-white bg-transparent">{name}</h1>
+      <h1 className="font-bold text-[28px] p-4 text-white bg-transparent">{name}</h1>
     </div>
   );
 };

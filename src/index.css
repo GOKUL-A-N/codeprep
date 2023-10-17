@@ -73,6 +73,44 @@
   transform: scale(1.1);
 }
 
+/* marquee tag */
+
+.slider{
+  height: 250px;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.slide-track{
+  display: flex;
+  width: calc(250px * 18  );
+  animation: scroll 40s linear infinite;
+}
+@keyframes scroll{
+  0%{
+      transform: translateX(0);
+  }
+  100%{
+      transform: translateX(calc(-250px * 9));
+  }
+}
+
+.slide{
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+
+
+
 /* mobile view  */
 
 @media only screen and (min-width: 1080px) {

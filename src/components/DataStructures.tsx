@@ -7,7 +7,7 @@ import DataStructureComponent from "./DataStructureComponent";
 
 const DataStructures: React.FC = () => {
   return (
-    <div id="datastructures">
+    <div id="datastructures " className="mt-[60px]">
       {/* title */}
 
       <h1 className="heading1 text-center">
