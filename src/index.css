@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,42 +11,38 @@
   extra color -> #63727b;
 */
 
-
 /* background color for entire website */
-*{
+* {
   background-color: #0f1316;
 }
 
 /* text styling */
-.heading1{
-  color: #D1EAFE;
-  font-family: 'Poppins', sans-serif;
+.heading1 {
+  color: #d1eafe;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 34px;
 }
 
-.heading2{
+.heading2 {
   color: #63727b;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 22px; 
-}
-
-.paragraph{
-  color: #D1EAFE;
-  font-family: 'Lato', sans-serif;
   font-size: 22px;
-  
 }
 
-.important{
-  color: #00CFBA;
-  font-family: 'Poppins', sans-serif;
+.paragraph {
+  color: #d1eafe;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+}
+
+.important {
+  color: #00cfba;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   /* font-size: 28px;  */
 }
-
-
 
 /* button */
 .third {
@@ -64,17 +60,16 @@
   color: #63727b;
 }
 
-
 /* data structures component */
-.comp-bg{
-  background: linear-gradient(125deg, #1e1e1e 70%,#00CFBA );
+.comp-bg {
+  background: linear-gradient(125deg, #1e1e1e 70%, #00cfba);
   width: 350px;
   height: 150px;
   transition: 0.3s ease-in-out;
   box-shadow: 3px 3px 8px #63727b;
 }
 
-.comp-bg:hover{
+.comp-bg:hover {
   transform: scale(1.1);
 }
 
@@ -82,36 +77,35 @@
 
 @media only screen and (min-width: 1080px) {
   /* text and fonts styling */
-  .heading1{
-    color: #D1EAFE;
-    font-family: 'Poppins', sans-serif;
+  .heading1 {
+    color: #d1eafe;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 65px;
   }
-  
-  .heading2{
+
+  .heading2 {
     color: #63727b;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
-    font-size: 35px; 
+    font-size: 35px;
   }
-  
-  .paragraph{
-    color: #D1EAFE;
-    font-family: 'Lato', sans-serif;
+
+  .paragraph {
+    color: #d1eafe;
+    font-family: "Lato", sans-serif;
     font-size: 25px;
-    
   }
-  
-  .important{
-    color: #00CFBA;
-    font-family: 'Poppins', sans-serif;
+
+  .important {
+    color: #00cfba;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
-    font-size: 35px; 
+    font-size: 35px;
   }
   /* data structures component */
-  .comp-bg{
-    background: linear-gradient(125deg, #1e1e1e 70%,#00CFBA );
+  .comp-bg {
+    background: linear-gradient(125deg, #1e1e1e 70%, #00cfba);
     width: 350px;
     height: 150px;
     transition: 0.3s ease-in-out;
