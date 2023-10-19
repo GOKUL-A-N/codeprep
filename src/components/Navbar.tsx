@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const Navbar: React.FC = () => {
   return (
@@ -21,9 +22,9 @@ const Navbar: React.FC = () => {
           <a href="" className="paragraph hover:opacity-75 hover:duration-300 px-5">
             Practice
           </a>
-          <a href="" className="paragraph hover:opacity-75 hover:duration-300 px-5">
+          <Link to="roadmap" className="paragraph hover:opacity-75 hover:duration-300 px-5">
             Roadmap
-          </a>
+          </Link>
         </div>
       </div>
     </nav>

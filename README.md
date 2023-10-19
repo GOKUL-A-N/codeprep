@@ -8,5 +8,10 @@
 [t][A] add link to navbar component
 [t][A] create mobile view navbar functionality
 [c][G] decrease the text size of name in data structures page
-[t][G] add all the data structures list to data structures page
-
+[c][G] add all the data structures list to data structures page
+[c][G] create roadmap component
+[c][G] add links to roadmap component
+[c][G] create pages required
+[c][G] connect pages to data structures component
+[c][G] connect pages to roadmap component
+[c][G] redo featured component
