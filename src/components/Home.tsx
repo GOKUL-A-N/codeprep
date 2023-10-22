@@ -16,11 +16,13 @@ const Home: React.FC = () => {
         </h1>
         <h4 className="heading2">Start from scratch, Build up expertise ✨</h4>
         <a
-            href="#datastructures"
-            className="paragraph hover:opacity-75 hover:duration-300 px-5"
-          ><button className="third mt-14 sm:ml-[5px] rounded">
-          <span className="font-semibold bg-transparent ">Join The Movement</span>
-        </button></a>
+          href="#datastructures"
+          className="paragraph hover:opacity-75 hover:duration-300 px-5"
+        >
+          <button className="third mt-14 sm:ml-[5px] rounded">
+            <span className="font-semibold bg-transparent ">Join The Movement</span>
+          </button>
+        </a>
       </div>
       <div className="hidden sm:block animate-pulse">
         <img src={homeimg} alt="homeimg" />
