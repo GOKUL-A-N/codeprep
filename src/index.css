@@ -35,13 +35,41 @@
   color: #d1eafe;
   font-family: "Lato", sans-serif;
   font-size: 22px;
+  list-style: none;
 }
+
+
 
 .important {
   color: #00cfba;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   /* font-size: 28px;  */
+}
+
+/* box styling for leetcode problems */
+
+.box{
+  background: #0f1316;
+  border-radius: 2px;
+  /* display: inline-block; */
+  margin: 1rem;
+  border-radius: 3px;
+  position: relative;
+  box-shadow: 0 10px 20px rgba(24, 24, 24, 0.19), 0 6px 6px rgba(27, 27, 27, 0.23);
+}
+
+/* list of leetcode problems text colors */
+
+.list{
+  color: #d1eafe;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  list-style: none;
+}
+
+.list:hover{
+  color: #00cfba;
 }
 
 /* button */
