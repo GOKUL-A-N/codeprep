@@ -3,6 +3,8 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import DataStructures from "./components/DataStructures";
 import Featured from "./components/Featured";
+import Footer from "./components/Footer";
+import Algorithms from "./components/Algorithms";
 
 const App: React.FC = () => {
   return (
@@ -11,6 +13,8 @@ const App: React.FC = () => {
       <Home />
       <Featured />
       <DataStructures />
+      <Algorithms />
+      <Footer />
     </div>
   );
 };

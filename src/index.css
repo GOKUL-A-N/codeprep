@@ -24,6 +24,11 @@
   font-size: 34px;
 }
 
+.sampleHeading{
+  text-shadow: 2px 0 #ff8383, -2px 0 #c3ff9b, 0 2px #9dd4ff, 0 -2px #f4b5ff,
+  1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #dfffcd;
+}
+
 .heading2 {
   color: #63727b;
   font-family: "Poppins", sans-serif;
@@ -57,6 +62,15 @@
   border-radius: 3px;
   position: relative;
   box-shadow: 0 10px 20px rgba(24, 24, 24, 0.19), 0 6px 6px rgba(27, 27, 27, 0.23);
+}
+
+.neumorphism-Box{
+  background: linear-gradient(145deg, #07090A, #0B0D10);
+border-radius: 0%;
+/* box-shadow: 27.33px 27.33px 27.33px 27.33px #050607; */
+width: 100%;
+border-color: #2c2c2c;
+  border-width: 2px;
 }
 
 /* list of leetcode problems text colors */
@@ -103,38 +117,7 @@
 
 /* marquee tag */
 
-.slider {
-  height: 250px;
-  margin: auto;
-  position: relative;
-  width: 100%;
-  display: grid;
-  place-items: center;
-  overflow: hidden;
-}
 
-.slide-track {
-  display: flex;
-  width: calc(250px * 18);
-  animation: scroll 40s linear infinite;
-}
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-250px * 9));
-  }
-}
-
-.slide {
-  height: 200px;
-  width: 250px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 15px;
-}
 
 /* timeline css */
 .design-section {

@@ -8,10 +8,10 @@ import {Link} from "react-router-dom"
 
 const DataStructures: React.FC = () => {
   return (
-    <div id="datastructures " className="mt-[60px]">
+    <div id="datastructures" className="mt-[60px]">
 
-      <h1 className="heading1 text-center">
-        <span className="underline" style={{ textDecorationColor: "#00cfba" }}>
+      <h1 className="heading2">
+        <span className="" style={{ textDecorationColor: "#00cfba" }}>
           Data
         </span>{" "}
         <span style={{ color: "#00cfba" }}>Structures</span>
@@ -25,7 +25,7 @@ const DataStructures: React.FC = () => {
         <Link to="queue"><DataStructureComponent name="Queue" /></Link>
         <Link to="trees"><DataStructureComponent name="Trees" /></Link>
         <Link to="heap"><DataStructureComponent name="Heap" /></Link>
-        <Link to="hashing"><DataStructureComponent name="hashing" /></Link>
+        <Link to="graph"><DataStructureComponent name="Graph" /></Link>
         <Link to="matrix"><DataStructureComponent name="matrix" /></Link>
         <Link to="bitmanipulation"><DataStructureComponent name="Bit Manipulation" /></Link>
         <Link to="math"><DataStructureComponent name="Math" /></Link>

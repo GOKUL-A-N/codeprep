@@ -36,7 +36,7 @@ const Arrays: React.FC = () => {
 
           
         </li></a>
-        <a href={question.answer} className=""><button className="bg-gray-300 p-2 hover:bg-green-500 rounded-full">🫣</button></a>
+        <a href={question.answer} className=""><button className="bg-gray-300 p-2 hover:bg-blue-500 rounded">Reveal</button></a>
         </div>
         
       ))}
