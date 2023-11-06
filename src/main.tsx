@@ -7,7 +7,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Arrays from "./Pages/Arrays.tsx";
 import String from "./Pages/String.tsx";
 import Graph from "./Pages/Graph.tsx";
-import Hashing from "./Pages/Hashing.tsx";
 import Heep from "./Pages/Heep.tsx";
 import LinkedList from "./Pages/LinkedList.tsx";
 import Matrix from "./Pages/Matrix.tsx";
@@ -22,6 +21,12 @@ import Algorithm from "./Pages/Algorithm.tsx";
 import TimeComplexity from "./Pages/TimeComplexity.tsx";
 import SpaceComplexity from "./Pages/SpaceComplexity.tsx";
 import Blogs from "./Pages/Blogs.tsx";
+import SortingAlgorithm from "./Pages/SortingAlgorithm.tsx";
+import GreedyTechnique from "./Pages/GreedyTechnique.tsx";
+import SearchingAlgorithm from "./Pages/SearchingAlgorithm.tsx";
+import BackTracking from "./Pages/BackTracking.tsx";
+import DivideAndConquer from "./Pages/DivideAndConquer.tsx";
+import DynamicProgramming from "./Pages/DynamicProgramming.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -37,7 +42,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         <Route path="/arrays" element={<Arrays />} />
         <Route path="/string" element={<String />} />
         <Route path="/graph" element={<Graph />} />
-        <Route path="/hashing" element={<Hashing />} />
+        <Route path="/sorting" element={<SortingAlgorithm />} />
         <Route path="/heap" element={<Heep />} />
         <Route path="/linkedlist" element={<LinkedList />} />
         <Route path="/matrix" element={<Matrix />} />
@@ -46,6 +51,11 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         <Route path="/trees" element={<Trees />} />
         <Route path="/bitmanipulation" element={<BitManipulation />} />
         <Route path="/math" element={<Math />} />
+        <Route path="/greedy" element={<GreedyTechnique />} />
+        <Route path="/searching" element={<SearchingAlgorithm />} />
+        <Route path="/backtracking" element={<BackTracking />} />
+        <Route path="/divideandconquer" element={<DivideAndConquer />} />
+        <Route path="/dynamicprogramming" element={<DynamicProgramming />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>

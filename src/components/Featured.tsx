@@ -9,7 +9,7 @@ const Featured: React.FC = () => {
             <h3 className='bg-transparent slide font-bold text-[48px]  text-gray-500'>GeeksForGeeks</h3>
             <h3 className='bg-transparent slide font-bold text-[48px] text-gray-500'>LeetCode</h3>
             <h3 className='bg-transparent slide font-bold text-[48px] text-gray-500'>Walkccc</h3>
-            
+            <h3 className='bg-transparent slide font-bold text-[48px] text-gray-500'>Bard.ai</h3>
             
             
             

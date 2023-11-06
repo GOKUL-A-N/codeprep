@@ -1,4 +1,5 @@
-import React from 'react'
+import AlgorithmList from '../components/AlgorithmList'
+import algorithm from "../assets/images/algorithm.jpg"
 
 const Algorithm = () => {
   return (
@@ -8,6 +9,9 @@ const Algorithm = () => {
       <p className='paragraph p-2'>The word Algorithm means ” A set of finite rules or instructions to be followed in calculations or other problem-solving operations ”
 Or
 ” A procedure for solving a mathematical problem in a finite number of steps that frequently involves recursive operations”.</p>
+<br />
+<img src={algorithm} alt="" />
+<br />
       <h4 className='heading2 p-2'>Here is a simple example of an algorithm in natural language:</h4>
       <h6 className='text-white text-[30px] p-2 font-bold'>Algorithm for making a cup of tea:</h6>
       <ol className='paragraph pl-4'>
@@ -28,6 +32,7 @@ Or
     <h1 className="important bg-transparent">Note:💡</h1><br />
     <p className="paragraph bg-transparent">Algorithms are a powerful tool that can be used to solve a wide range of problems. They are essential for the development of computer software and artificial intelligence, and they play an important role in many different industries. </p>
   </div>
+    <AlgorithmList />
     </div>
   )
 }
