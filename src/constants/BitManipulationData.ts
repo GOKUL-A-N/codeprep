@@ -1,0 +1,4 @@
+export const bitManipulationData = {
+    definition: "Bit Manipulation is a technique used in a variety of problems to get the solution in an optimized way. This technique is very effective from a Competitive Programming point of view. It is all about Bitwise Operators which directly works upon binary numbers or bits of numbers that help the implementation fast.",
+    application: ["Bitwise operations are prominent in embedded systems, control systems, etc where memory(data transmission/data points) is still an issue.","They are also useful in networking where it is important to reduce the amount of data, so booleans are packed together. Packing them together and taking them apart use bitwise operations and shift instructions.","Bitwise operations are also heavily used in the compression and encryption of data.","Useful in graphics programming, older GUIs are heavily dependent on bitwise operations like XOR(^) for selection highlighting and other overlays."],
+}

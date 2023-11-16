@@ -27,6 +27,7 @@ import SearchingAlgorithm from "./Pages/SearchingAlgorithm.tsx";
 import BackTracking from "./Pages/BackTracking.tsx";
 import DivideAndConquer from "./Pages/DivideAndConquer.tsx";
 import DynamicProgramming from "./Pages/DynamicProgramming.tsx";
+import CreateBlog from "./Pages/CreateBlog.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -56,6 +57,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         <Route path="/backtracking" element={<BackTracking />} />
         <Route path="/divideandconquer" element={<DivideAndConquer />} />
         <Route path="/dynamicprogramming" element={<DynamicProgramming />} />
+        <Route path="/createblog" element={<CreateBlog />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>

@@ -104,10 +104,10 @@ const Roadmap: React.FC = () => {
           <div className="timeline-middle">
             <div className="timeline-circle"></div>
           </div>
-          <Link to="../bitmanipulation" className=" timeline-component timeline-content">
+          <Link to="../backtracking" className=" timeline-component timeline-content">
             <h2 className="paragraph font-bold bg-transparent">Backtracking Algorithm</h2>
           </Link>
-          <Link to="../matrix" className="timeline-component timeline-content">
+          <Link to="../dynamicprogramming" className="timeline-component timeline-content">
             <h2 className="paragraph font-bold bg-transparent">Dynamic Programming</h2>
           </Link>
           <div className="timeline-middle">
