@@ -23,7 +23,7 @@ const CreateBlog: React.FC = () => {
           Content
         </label>
         <textarea
-          rows='10'
+          rows="10"
           name="message"
           id="message"
           placeholder="Type your content here"
