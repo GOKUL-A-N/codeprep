@@ -1,0 +1,4 @@
+export const stackData = {
+    definition : "A stack is a linear data structure that follows the Last In, First Out (LIFO) principle. This means that the last element added to the stack will also be the first one to be removed. Stacks are often used in situations where the order of elements is important, such as in a call stack or in a computer program that needs to process tasks in a specific order.",
+    operations: [ "Push: Adds an element to the top of the stack.","Pop: Removes the element from the top of the stack." , "Top: Returns the element at the top of the stack without removing it.","Is Empty: Checks if the stack is empty.","Size: Get the number of elements in the stack."]
+}

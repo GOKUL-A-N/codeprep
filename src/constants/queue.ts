@@ -1,0 +1,4 @@
+export const queueData = {
+    definition : "A queue is a linear data structure that follows the First In, First Out (FIFO) principle. This means that the first element added to the queue will also be the first one to be removed. Queues are often used in situations where the order of elements is important, such as in a line at a store or in a computer program that needs to process tasks in a specific order.",
+    operations : ["Enqueue: Add an element to the end of the queue." , "Dequeue: Remove the element from the front of the queue" , "Front: Get the element at the front of the queue without removing it.", "Is Empty: Check if the queue is empty.", "Size: Get the number of elements in the queue."]
+}
