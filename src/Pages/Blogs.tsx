@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import { blogs } from '../constants/blogContents';
 import { Link } from 'react-router-dom';
 
-const Blogs = () => {
+const Blogs:React.FC = () => {
   return (
     <div className='relative'>
       <div className='p-10'>

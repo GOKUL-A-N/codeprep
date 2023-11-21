@@ -1,8 +1,8 @@
 import React from 'react';
 import { dynamicprogrammingData } from '../constants/dynamicprogrammingData';
-import dynamicprogrammingImg from "../assets/images/dynamicprogrammingImg.png"
+// import dynamicprogrammingImg from "../assets/images/dynamicprogrammingImg.png"
 
-const DynamicProgramming = () => {
+const DynamicProgramming:React.FC = () => {
   return (
     <div className="overflow-x-hidden max-w-[90%] xl:max-w-[80%] mx-auto mb-24">
       <h1 className="heading1 mt-10 text-center">Dynamic Programming</h1>
@@ -10,7 +10,7 @@ const DynamicProgramming = () => {
       <p className="paragraph sm:mb-10 sm:leading-10">{dynamicprogrammingData.definition}</p>
       <img
         className="hidden sm:block h-[25rem] md:h-[35rem] w-full"
-        src={dynamicprogrammingImg}
+        src="https://www.geeksforgeeks.org/wp-content/uploads/Dynamic-Programming-1-768x384.png"
         alt="arrayImage"
       />
       <p className="paragraph sm:mt-10 sm:leading-10">{

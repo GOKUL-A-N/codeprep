@@ -2,7 +2,7 @@ import React from 'react';
 import { backtrackingData } from '../constants/backtrackingData';
 import backtrackingImg from '../assets/images/backtrackingImg.png';
 
-const BackTracking = () => {
+const BackTracking:React.FC = () => {
   return (
     <div className="overflow-x-hidden max-w-[90%] xl:max-w-[80%] mx-auto mb-24">
       <h1 className="heading1 mt-10 text-center">backTracking</h1>

@@ -1,4 +1,76 @@
 export const stackData = {
     definition : "A stack is a linear data structure that follows the Last In, First Out (LIFO) principle. This means that the last element added to the stack will also be the first one to be removed. Stacks are often used in situations where the order of elements is important, such as in a call stack or in a computer program that needs to process tasks in a specific order.",
-    operations: [ "Push: Adds an element to the top of the stack.","Pop: Removes the element from the top of the stack." , "Top: Returns the element at the top of the stack without removing it.","Is Empty: Checks if the stack is empty.","Size: Get the number of elements in the stack."]
+    operations: [ "Push: Adds an element to the top of the stack.","Pop: Removes the element from the top of the stack." , "Top: Returns the element at the top of the stack without removing it.","Is Empty: Checks if the stack is empty.","Size: Get the number of elements in the stack."],
+    questions: [
+        {
+            title: "Valid Parentheses",
+            id:"20",
+            difficulty: "Easy",
+            question: "https://leetcode.com/problems/valid-parentheses/",
+            answer: "https://walkccc.me/LeetCode/problems/0020/?h=20",
+        },
+        {
+            title: "Baseball Game",
+            id:"68",
+            difficulty: "Easy",
+            question: "https://leetcode.com/problems/baseball-game/",
+            answer: "https://walkccc.me/LeetCode/problems/0068/?h=68",
+        },
+        {
+            title: "Implement Stack Using Queues",
+            id:"225",
+            difficulty: "Easy",
+            question: "https://leetcode.com/problems/implement-stack-using-queues/",
+            answer: "https://walkccc.me/LeetCode/problems/0225/?h=225",
+        },
+        {
+            title: "Min Stack",
+            id:"115",
+            difficulty: "Medium",
+            question: "https://leetcode.com/problems/min-stack/",
+            answer: "https://walkccc.me/LeetCode/problems/0115/?h=115",
+        },
+        {
+            title: "Evaluate Reverse Polish Notation",
+            id:"150",
+            difficulty: "Medium",
+            question: "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+            answer: "https://walkccc.me/LeetCode/problems/0150/?h=150",
+        },
+        {
+            title: "Removing Stars From a String",
+            id:"2390",
+            difficulty: "Medium",
+            question: "https://leetcode.com/problems/removing-stars-from-a-string/",
+            answer: "https://walkccc.me/LeetCode/problems/2390/?h=2390",
+        },
+        {
+            title: "Validate Stack Sequences",
+            id:"946",
+            difficulty: "Medium",
+            question: "https://leetcode.com/problems/removing-stars-from-a-string/",
+            answer: "https://walkccc.me/LeetCode/problems/946/?h=946",
+        },
+        {
+            title: "Generate Parentheses",
+            id:"22",
+            difficulty: "Medium",
+            question: "https://leetcode.com/problems/generate-parentheses/",
+            answer: "https://walkccc.me/LeetCode/problems/0022/?h=22",
+        },
+        {
+            title: "Asteroid Collision",
+            id:"735",
+            difficulty: "Medium",
+            question: "https://leetcode.com/problems/asteroid-collision/",
+            answer: "https://walkccc.me/LeetCode/problems/0735/?h=735",
+        },
+        {
+            title: "Daily Temperatures",
+            id:"735",
+            difficulty: "Medium",
+            question: "https://leetcode.com/problems/asteroid-collision/",
+            answer: "https://walkccc.me/LeetCode/problems/0735/?h=735",
+        },
+    ]
 }

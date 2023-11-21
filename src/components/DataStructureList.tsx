@@ -20,15 +20,15 @@ const DataStructures: React.FC = () => {
       <div className="rounded flex justify-around flex-wrap">
         <Link to="arrays"><DataStructureComponent name="Arrays" /></Link>
         <Link to="string"><DataStructureComponent name="Strings" /></Link>
-        <Link to="linkedllist"><DataStructureComponent name="LinkedList" /></Link>
+        <Link to="linkedlist"><DataStructureComponent name="LinkedList" /></Link>
         <Link to="stack"><DataStructureComponent name="Stack" /></Link>
         <Link to="queue"><DataStructureComponent name="Queue" /></Link>
         <Link to="trees"><DataStructureComponent name="Trees" /></Link>
         <Link to="heap"><DataStructureComponent name="Heap" /></Link>
         <Link to="graph"><DataStructureComponent name="Graph" /></Link>
-        <Link to="matrix"><DataStructureComponent name="matrix" /></Link>
-        <Link to="bitmanipulation"><DataStructureComponent name="Bit Manipulation" /></Link>
-        <Link to="math"><DataStructureComponent name="Math" /></Link>
+        {/* <Link to="matrix"><DataStructureComponent name="matrix" /></Link> */}
+        {/* <Link to="bitmanipulation"><DataStructureComponent name="Bit Manipulation" /></Link> */}
+        {/* <Link to="math"><DataStructureComponent name="Math" /></Link> */}
       </div>
     </div>
   );

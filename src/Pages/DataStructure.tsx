@@ -2,7 +2,7 @@ import React from "react";
 import classification from "../assets/images/Classification.png";
 import DataStructureList from "../components/DataStructureList";
 
-const DataStructure = () => {
+const DataStructure:React.FC = () => {
   return (
     <div className="overflow-x-hidden max-w-[90%] mx-auto mb-24">
       <h1 className="heading1">DataStructure</h1>
