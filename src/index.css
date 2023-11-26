@@ -14,19 +14,19 @@
 /* background color for entire website */
 * {
   background-color: #0f1316;
+  font-family: "poppins", "sans-serif";
 }
 
 body {
-  --sb-track-color: #232E33;
+  --sb-track-color: #232e33;
   --sb-thumb-color: #00cfba;
   --sb-size: 10px;
 
-  scrollbar-color: var(--sb-thumb-color) 
-                   var(--sb-track-color);
+  scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
 }
 
 body::-webkit-scrollbar {
-  width: var(--sb-size) 
+  width: var(--sb-size);
 }
 
 body::-webkit-scrollbar-track {
@@ -37,8 +37,7 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background: var(--sb-thumb-color);
   border-radius: 10px;
-  
-  }
+}
 
 /* text styling */
 .heading1 {
@@ -48,9 +47,9 @@ body::-webkit-scrollbar-thumb {
   font-size: 34px;
 }
 
-.sampleHeading{
-  text-shadow: 2px 0 #ff8383, -2px 0 #c3ff9b, 0 2px #9dd4ff, 0 -2px #f4b5ff,
-  1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #dfffcd;
+.sampleHeading {
+  text-shadow: 2px 0 #ff8383, -2px 0 #c3ff9b, 0 2px #9dd4ff, 0 -2px #f4b5ff, 1px 1px #fff,
+    -1px -1px #fff, 1px -1px #fff, -1px 1px #dfffcd;
 }
 
 .heading2 {
@@ -67,8 +66,6 @@ body::-webkit-scrollbar-thumb {
   list-style: none;
 }
 
-
-
 .important {
   color: #00cfba;
   font-family: "Poppins", sans-serif;
@@ -78,7 +75,7 @@ body::-webkit-scrollbar-thumb {
 
 /* box styling for leetcode problems */
 
-.box{
+.box {
   background: #0f1316;
   border-radius: 2px;
   /* display: inline-block; */
@@ -88,25 +85,25 @@ body::-webkit-scrollbar-thumb {
   box-shadow: 0 10px 20px rgba(24, 24, 24, 0.19), 0 6px 6px rgba(27, 27, 27, 0.23);
 }
 
-.neumorphism-Box{
-  background: linear-gradient(145deg, #07090A, #0B0D10);
-border-radius: 0%;
-/* box-shadow: 27.33px 27.33px 27.33px 27.33px #050607; */
-width: 100%;
-border-color: #2c2c2c;
+.neumorphism-Box {
+  background: linear-gradient(145deg, #07090a, #0b0d10);
+  border-radius: 0%;
+  /* box-shadow: 27.33px 27.33px 27.33px 27.33px #050607; */
+  width: 100%;
+  border-color: #2c2c2c;
   border-width: 2px;
 }
 
 /* list of leetcode problems text colors */
 
-.list{
+.list {
   color: #d1eafe;
   font-family: "Lato", sans-serif;
   font-size: 22px;
   list-style: none;
 }
 
-.list:hover{
+.list:hover {
   color: #00cfba;
 }
 
@@ -140,8 +137,6 @@ border-color: #2c2c2c;
 }
 
 /* marquee tag */
-
-
 
 /* timeline css */
 .design-section {
