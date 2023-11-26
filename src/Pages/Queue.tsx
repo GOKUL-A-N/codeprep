@@ -13,8 +13,8 @@ const Queue: React.FC = () => {
         alt="arrayImage"
       />
       <p className="paragraph sm:mt-10 sm:leading-10">{queueData.explanation}</p>
-      <h3 className="heading2 mt-4 mb-2 sm:mt-10 sm:mb-3">When to use Queue Data Structure</h3>
-      {queueData.whenToUse.map((scenario: String, index: Key) => (
+      <h3 className="heading2 mt-4 mb-2 sm:mt-10 sm:mb-3">Operations on Queue Data Structure</h3>
+      {queueData.operations.map((scenario: String, index: Key) => (
         <li className="paragraph list-square" key={index}>
           {scenario}
         </li>

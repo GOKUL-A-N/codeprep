@@ -24,7 +24,7 @@ const DataStructures: React.FC = () => {
         <Link to="stack"><DataStructureComponent name="Stack" /></Link>
         <Link to="queue"><DataStructureComponent name="Queue" /></Link>
         <Link to="trees"><DataStructureComponent name="Trees" /></Link>
-        <Link to="heap"><DataStructureComponent name="Heap" /></Link>
+        <Link to="heep"><DataStructureComponent name="Heep" /></Link>
         <Link to="graph"><DataStructureComponent name="Graph" /></Link>
         {/* <Link to="matrix"><DataStructureComponent name="matrix" /></Link> */}
         {/* <Link to="bitmanipulation"><DataStructureComponent name="Bit Manipulation" /></Link> */}

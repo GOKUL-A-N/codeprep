@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{Key} from 'react'
 import { searchingData } from '../constants/searching'
 
 const SearchingAlgorithm:React.FC = () => {
@@ -12,17 +12,18 @@ const SearchingAlgorithm:React.FC = () => {
         src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230104154936/Linear-Search1.png"
         alt="arrayImage"
       />
-      <p className="paragraph sm:mt-10 sm:leading-10">{searchingData.explanation}</p>
-      <h3 className="heading2 mt-4 mb-2 sm:mt-10 sm:mb-3">When to use Searching Algorithm Data Structure</h3>
-      {searchingData.whenToUse.map((scenario: String, index: Key) => (
+      
+      <h3 className="heading2 mt-4 mb-2 sm:mt-10 sm:mb-3">Types of Searching Algorithm</h3>
+      {searchingData.types.map((scenario: String, index: Key) => (
         <li className="paragraph list-square" key={index}>
           {scenario}
         </li>
       ))}
-      <h3 className="heading2 mt-4 mb-2 sm:mt-10 sm:mb-3">
+      <p className="paragraph sm:mt-10 sm:leading-10">{searchingData.SequentialSearch}</p><p className="paragraph sm:mt-10 sm:leading-10">{searchingData.binarySearch}</p>
+      {/* <h3 className="heading2 mt-4 mb-2 sm:mt-10 sm:mb-3">
         Important Coding Problems on Searching Algorithm
-      </h3>
-      {searchingData.questions.map((question) =>(
+      </h3> */}
+      {/* {searchingData.questions.map((question) =>(
         <div className="flex box mb-4 p-2">
           <a href={question.question} className="flex list w-[92%]">
           <li className=" list-none ">
@@ -38,7 +39,9 @@ const SearchingAlgorithm:React.FC = () => {
         <a href={question.answer} className=""><button className="bg-gray-300 p-2 hover:bg-blue-500 rounded">Reveal</button></a>
         </div>
         
-      ))}
+      ))} */}
+      <br />
+      <a href=""><button className='third'>Learn More</button></a>
     </div>
   )
 }

@@ -12,9 +12,9 @@ const GreedyTechnique:React.FC = () => {
         src="https://www.geeksforgeeks.org/wp-content/uploads/Fractional-Knapsackexample-min-768x384.png"
         alt="arrayImage"
       />
-      <p className="paragraph sm:mt-10 sm:leading-10">{greedytechniqueData.explanation}</p>
-      <h3 className="heading2 mt-4 mb-2 sm:mt-10 sm:mb-3">When to use Greedy Technique Data Structure</h3>
-      {greedytechniqueData.whenToUse.map((scenario: String, index: Key) => (
+      {/* <p className="paragraph sm:mt-10 sm:leading-10">{greedytechniqueData.explanation}</p> */}
+      <h3 className="heading2 mt-4 mb-2 sm:mt-10 sm:mb-3">Explanation for Greedy Technique Data Structure</h3>
+      {greedytechniqueData.explanation.map((scenario: String, index: Key) => (
         <li className="paragraph list-square" key={index}>
           {scenario}
         </li>

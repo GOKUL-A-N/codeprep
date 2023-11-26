@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{Key} from 'react'
 import { recursionData } from '../constants/recursion'
 
 const Recursion:React.FC = () => {
@@ -12,14 +12,16 @@ const Recursion:React.FC = () => {
         src="https://media.geeksforgeeks.org/wp-content/uploads/20191107235734/fib1.jpg"
         alt="arrayImage"
       />
-      <p className="paragraph sm:mt-10 sm:leading-10">{recursionData.explanation}</p>
-      <h3 className="heading2 mt-4 mb-2 sm:mt-10 sm:mb-3">When to use Recursion Data Structure</h3>
-      {recursionData.whenToUse.map((scenario: String, index: Key) => (
+      {/* <p className="paragraph sm:mt-10 sm:leading-10">{recursionData.explanation}</p> */}
+      <h3 className="heading2 mt-4 mb-2 sm:mt-10 sm:mb-3">Key Features Of Recursion Algorithm</h3>
+      {recursionData.keyFeatures.map((scenario: String, index: Key) => (
         <li className="paragraph list-square" key={index}>
           {scenario}
         </li>
       ))}
-      <h3 className="heading2 mt-4 mb-2 sm:mt-10 sm:mb-3">
+      <br />
+      <a href="https://youtu.be/k-7jJP7QFEM?si=9i3gJltGA8MKfZrA"><button className='third' >Learn More</button></a>
+      {/* <h3 className="heading2 mt-4 mb-2 sm:mt-10 sm:mb-3">
         Important Coding Problems on Recursion
       </h3>
       {array.questions.map((question) =>(
@@ -38,7 +40,7 @@ const Recursion:React.FC = () => {
         <a href={question.answer} className=""><button className="bg-gray-300 p-2 hover:bg-blue-500 rounded">Reveal</button></a>
         </div>
         
-      ))}
+      ))} */}
     </div>
   )
 }

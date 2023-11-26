@@ -13,12 +13,12 @@ const DivideAndConquer:React.FC = () => {
         alt="arrayImage"
       />
       <p className="paragraph sm:mt-10 sm:leading-10">{divideAndConquerData.explanation}</p>
-      <h3 className="heading2 mt-4 mb-2 sm:mt-10 sm:mb-3">When to use Array Data Structure</h3>
+      {/* <h3 className="heading2 mt-4 mb-2 sm:mt-10 sm:mb-3">When to use Array Data Structure</h3>
       {divideAndConquerData.whenToUse.map((scenario: String, index: Key) => (
         <li className="paragraph list-square" key={index}>
           {scenario}
         </li>
-      ))}
+      ))} */}
       <h3 className="heading2 mt-4 mb-2 sm:mt-10 sm:mb-3">
         Important Coding Problems on Divide and Conquer
       </h3>

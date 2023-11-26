@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{Key} from 'react'
 import { treesData } from '../constants/trees'
 
 const Trees: React.FC = () => {
@@ -12,9 +12,14 @@ const Trees: React.FC = () => {
         src="https://media.geeksforgeeks.org/wp-content/uploads/20230626160718/Tree-Data-Structure--nEW.png"
         alt="arrayImage"
       />
-      <p className="paragraph sm:mt-10 sm:leading-10">{treesData.explanation}</p>
-      <h3 className="heading2 mt-4 mb-2 sm:mt-10 sm:mb-3">When to use Trees Data Structure</h3>
-      {treesData.whenToUse.map((scenario: String, index: Key) => (
+      <h3 className="heading2 mt-4 mb-2 sm:mt-10 sm:mb-3">Types of Trees Data Structure</h3>
+      {treesData.typesOfTrees.map((scenario: String, index: Key) => (
+        <li className="paragraph list-square" key={index}>
+          {scenario}
+        </li>
+      ))}
+      <h3 className="heading2 mt-4 mb-2 sm:mt-10 sm:mb-3">Operations of Trees Data Structure</h3>
+      {treesData.operations.map((scenario: String, index: Key) => (
         <li className="paragraph list-square" key={index}>
           {scenario}
         </li>

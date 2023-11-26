@@ -41,7 +41,7 @@ const Home: React.FC = () => {
     <h1 className="important bg-transparent">Algorithms</h1><br />
     <p className="paragraph bg-transparent">The word Algorithm means ” A set of finite rules or instructions to be followed in calculations or other problem-solving operations ”
 Or
-” A procedure for solving a mathematical problem in a finite number of steps that frequently involves recursive operations”.<Link to="/algorithm" className="underline">Learn more.</Link> </p>
+” A procedure for solving a mathematical problem in a finite number of steps that frequently involves recursive operations”.<Link to="/algorithms" className="underline">Learn more.</Link> </p>
   </div><br />
   <div className="neumorphism-Box p-8">
     <h1 className="important bg-transparent">Time Complexity</h1><br />

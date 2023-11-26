@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Key } from 'react'
 import { stackData } from '../constants/stack'
 
 
@@ -13,15 +13,15 @@ const Stack: React.FC = () => {
         src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230726165552/Stack-Data-Structure.png"
         alt="arrayImage"
       />
-      <p className="paragraph sm:mt-10 sm:leading-10">{stackData.explanation}</p>
-      <h3 className="heading2 mt-4 mb-2 sm:mt-10 sm:mb-3">When to use Array Data Structure</h3>
-      {stackData.whenToUse.map((scenario: String, index: Key) => (
+      {/* <p className="paragraph sm:mt-10 sm:leading-10">{stackData.explanation}</p> */}
+      <h3 className="heading2 mt-4 mb-2 sm:mt-10 sm:mb-3">Operations on Stack Data Structure</h3>
+      {stackData.operations.map((scenario: String, index: Key) => (
         <li className="paragraph list-square" key={index}>
           {scenario}
         </li>
       ))}
       <h3 className="heading2 mt-4 mb-2 sm:mt-10 sm:mb-3">
-        Important Coding Problems on Arrays
+        Important Coding Problems on Stack
       </h3>
       {stackData.questions.map((question) =>(
         <div className="flex box mb-4 p-2">
