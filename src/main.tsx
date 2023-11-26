@@ -15,7 +15,7 @@ import Trees from "./Pages/Trees.tsx";
 import NoPage from "./components/NoPage.tsx";
 import DataStructure from "./Pages/DataStructure.tsx";
 import Algorithm from "./Pages/Algorithm.tsx";
-import Blogs from "./Pages/Blogs.tsx";
+import Blogs from "./Pages/Blogs.jsx";
 import SortingAlgorithm from "./Pages/SortingAlgorithm.tsx";
 import GreedyTechnique from "./Pages/GreedyTechnique.tsx";
 import SearchingAlgorithm from "./Pages/SearchingAlgorithm.tsx";
