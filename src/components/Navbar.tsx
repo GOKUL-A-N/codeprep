@@ -13,18 +13,18 @@ const Navbar: React.FC = () => {
           &#9776;
         </button>
         <div className="hidden sm:inline">
-          <Link to="datastructure"
+          <Link to="../datastructure"
             className="paragraph hover:opacity-75 hover:duration-300 px-5"
           >
             Data Structures
           </Link>
-          <Link to="algorithms" className="paragraph hover:opacity-75 hover:duration-300 px-5">
+          <Link to="../algorithms" className="paragraph hover:opacity-75 hover:duration-300 px-5">
             Algorithms
           </Link>
-          <Link to="blogs" className="paragraph hover:opacity-75 hover:duration-300 px-5">
+          <Link to="../blogs" className="paragraph hover:opacity-75 hover:duration-300 px-5">
             Blogs
           </Link>
-          <Link to="roadmap" className="paragraph hover:opacity-75 hover:duration-300 px-5">
+          <Link to="../roadmap" className="paragraph hover:opacity-75 hover:duration-300 px-5">
             Roadmap
           </Link>
         </div>
